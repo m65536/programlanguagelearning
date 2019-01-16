@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {HashRouter, Route} from "react-router-dom";
 import {Menu,Icon,Calendar} from 'antd';
-import FetchRequestTable from './../fetch/FetchRequestTable';
+import FetchRequestTable from '../fetch/FetchRequestTable';
 import ReactDOM from "react-dom";
 
 const SubMenu = Menu.SubMenu;
