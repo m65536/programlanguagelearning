@@ -4,10 +4,12 @@
     "index": "./src/index.js"
   },
   "dependencies": {
-    "antd": "^3.0.0",
+    "antd-mobile": "^2.2.8",
     "moment": "^2.19.3",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",

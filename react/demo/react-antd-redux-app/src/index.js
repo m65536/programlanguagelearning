@@ -1,20 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {Alert} from 'antd';
-import {QueryOrder} from '../src/components/QueryOrder/QueryOrder';
+import MenuExample from './components/test/MobileTest';
+import NavBarTest from './components/NavBar';
+
 
 function App() {
     return (
-
-        <div>
-            <Alert
-                message="Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text"
-                type="warning"
-            />
-            <QueryOrder/>
-        </div>
+        <NavBarTest />
     );
 }
 
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
